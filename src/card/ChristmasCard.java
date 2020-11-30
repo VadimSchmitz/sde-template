@@ -4,11 +4,8 @@ import card.Card;
 import com.hz.Printer;
 
 public class ChristmasCard extends Card {
-    private Printer printer;
-
     public ChristmasCard(Printer printer) {
-//        super(printer);
-        this.printer = printer;
+        super(printer);
     }
 
     protected void printHeaderOrFooter() {
