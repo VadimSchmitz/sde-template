@@ -1,8 +1,14 @@
-package com.hz;
+package card;
+
+import card.Card;
+import com.hz.Printer;
 
 public class ChristmasCard extends Card {
+    private Printer printer;
+
     public ChristmasCard(Printer printer) {
-        super(printer);
+//        super(printer);
+        this.printer = printer;
     }
 
     protected void printHeaderOrFooter() {

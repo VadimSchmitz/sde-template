@@ -1,4 +1,5 @@
-package com.hz;
+package card;
+import com.hz.Printer;
 
 public abstract class Card {
     protected Printer printer;
@@ -14,7 +15,7 @@ public abstract class Card {
         this.printHeaderOrFooter();
     }
 
-    abstract void printHeaderOrFooter();
-    abstract void printMessage();
-    abstract void printImage();
+    protected abstract void printHeaderOrFooter();
+    protected abstract void printMessage();
+    protected abstract void printImage();
 }

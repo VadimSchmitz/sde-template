@@ -1,4 +1,7 @@
-package com.hz;
+package card;
+
+import card.Card;
+import com.hz.Printer;
 
 public class PostCard extends Card {
     public PostCard(Printer printer) {

@@ -1,5 +1,9 @@
 package com.hz;
 
+import card.ChristmasCard;
+import card.HighschoolGraduationCard;
+import card.PostCard;
+
 public class Main {
 
     // READ THE INSTRUCTIONS IN THIS METHOD, PLEASE!!!
